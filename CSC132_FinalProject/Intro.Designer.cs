@@ -55,7 +55,7 @@ namespace CSC132_FinalProject
             this.lblWelcome.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.lblWelcome.Location = new System.Drawing.Point(389, 316);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(497, 49);
+            this.lblWelcome.Size = new System.Drawing.Size(255, 25);
             this.lblWelcome.TabIndex = 1;
             this.lblWelcome.Text = "Welcome to CU plan app!";
             // 
@@ -98,11 +98,11 @@ namespace CSC132_FinalProject
             // 
             // Intro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 36F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1225, 695);
+            this.ClientSize = new System.Drawing.Size(1205, 701);
             this.Controls.Add(this.btnexitIntro);
             this.Controls.Add(this.btncontinue);
             this.Controls.Add(this.lblinfoIntro);
