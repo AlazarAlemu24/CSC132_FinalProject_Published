@@ -78,14 +78,14 @@ class Computer_science : Major
             public Accounting(string Desc_of_major, int Num_of_credits, int Classes_completed) : base(Desc_of_major, Num_of_credits, Classes_completed)
         {
             //David Groom wrote this constructor to inherit variables from the base class Major
+            
         }
 
         public override int Credit_calculator()
         {
             //David Groom wrote this method to calculate the total credits needed to graduate
-                Number_of_credits = 130;
             //David Groom. Accounting has 130 credits
-               int total_credits = Number_of_credits - ClassesCompleted;
+               int total_credits = Number_of_Credits - Classescompleted;
             //David Groom. Classes already completed will be subtracted form the total number of credits needed to graduate
                return total_credits;
 
@@ -94,11 +94,45 @@ class Computer_science : Major
         public override string Info_for_Major()
         {
 
-            Description_of_major = "The Accounting program at Cornerstone preparesyou to sit for the Uniform Certified Public Accountant (CPA) exam and begin the process to become licensed";
+            Description_of_Major = "The Accounting program at Cornerstone preparesyou to sit for the Uniform Certified Public Accountant (CPA) exam and begin the process to become licensed";
             //Getting this variable from the abstract class and giving a string variable
-            return Description_of_major;
+            return Description_of_Major;
             //David Groom made this to assign Description of Major to a string value and return said value, these values are coming from the abstract class which are unassigned
         }
+        public string Description_of_Major
+        {
+            get
+            {
+                return Description_of_major;
+            }
+            set
+            {
+                value = Description_of_major;
+            }
+        }
+        public int Number_of_Credits
+        {
+            get
+            {
+                return Number_of_credits;
+            }
+            set
+            {
+                value = Number_of_credits;
+            }
+        }
+        public int Classescompleted
+        {
+            get
+            {
+                return ClassesCompleted;
+            }
+            set
+            {
+                value = ClassesCompleted;
+            }
+        }
+        
     }   
    class Exercise_Science : Major
     {
