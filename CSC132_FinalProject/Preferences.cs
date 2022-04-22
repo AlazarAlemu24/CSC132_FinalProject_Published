@@ -27,7 +27,7 @@ namespace CSC132_FinalProject
         private void Preferences_Load(object sender, EventArgs e)
         {   
             Accounting ob = new Accounting("Accounting", 120, 0);
-            //Actual Name is lblNumberNeededCredits
+            //Actual Name is lblNumberNeededCredits NO It won't pull
             while(txtSM1.Enabled == true)
             {
                 ob.Classescompleted = Convert.ToInt32(txtSM1.Text) + Convert.ToInt32(txtJT1.Text) + Convert.ToInt32(txtSM2.Text);
