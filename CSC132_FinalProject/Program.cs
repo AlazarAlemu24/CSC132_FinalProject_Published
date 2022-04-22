@@ -8,6 +8,7 @@ namespace CSC132_FinalProject
 {
     static class Program
     {
+        //I'm making a change so Alazar will see it
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
